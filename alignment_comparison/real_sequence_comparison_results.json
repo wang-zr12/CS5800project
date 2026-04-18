@@ -1,0 +1,794 @@
+[
+    {
+        "comparison_id": 1,
+        "seq1": {
+            "id": "NZ_JACWMH010000272.1",
+            "seq": "TTTTTACCCTCTTTTCTTTTTGTATTTAGATAACTCCCTTATCTTGCAGAACTGGGGTGATTTTTTCTTCAATTTCATTTTTTGAAACAATATTTTTCAAATAGATCATCGCCGTTTTAGGATCAACTGCGAACTTTTCGAACTGCGAACGAAAATTTTCTGCTGTGATGATCACATCTGGTTTCATGGAAACTGCGGAAGAAATATCACAATGGTCCAGTTTGGCTTCTACTCCTAATTTGTTCAAAACATCCTCAGCAGACATCTGTGCTGCAAAACTACTTCCTAAACCTGCACCGCATACGAATAAAATGTTCAATTTGTTCATCTTTGTTCTCCCCCGTATCATTTATTATTTCTCAACTACTGAAAAAAGCAGTTGTTTGAAATCTTCGATATTTGTGCATTCAATCAATCGATCCAACTTCTCTTCGTTGTTGATCAATTCAATTAGTTCTTTCATGATGTTCAGATGCGAGTAGGAGTCTACTGCTGCCAAACAAAAAATAATCTTTACTGGATCCATTTCAGGATTACCGAAATCGATTGGTTGCTCAATCGTAGCTACGCTGACTCCTAATTTATTGACCCCATCTTCTGGTCGGGCATGGGCTAGTGCCATGTGTTTGCCAATCACGATATACGGTCCGTAATCATTCACTGCACGAATCATCGCTTCGACATAGCGCTCTTCGACAATGTTTTCTTTAACCAATGGTCTAGCAGCTAGTTCAATCGATTCCTCCCAAGTAGTGGCTTTTTCTTTGATCATGATATTGCTGTCCGTCAAAATATCTTTT",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "seq2": {
+            "id": "OR357778.1",
+            "seq": "AACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCACTTGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAACTAATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATCTTCTGCAGGCTGCTTACGGTTTCGTCCGTGTTGCAGCCGATCATCAGCACATCTAGGTTTTGTCCGGGTGTGACCGAAAGGTAAGATGGAGAGCCTTGTCCCTGGTTTCAACGAGAAAACACACGTCCAACTCAGTTTGCCTGTTTTACAGGTTCGCGACGTGCTCGTACGTGGCTTTGGAGACTCCGTGGAGGAGGTCTTATCAGAGGCACGTCAACATCTTAAAGATGGCACTTGTGGCTTAGTAGAAGTTGAAAAAGGCGTTTTGCCTCAACTTGAACAGCCCTATGTGTTCATCAAACGTTCGGATGCTCGAACTGCACCTCATGGTCATGTTATGGTTGAGCTGGTAGCAGAACTCGAAGGCATTCAGTACGGTCGTAGTGGTGAGACACTTGGTGTCCTTGTCCCTCATGTGGGCGAAATACCAGTGGCTTACCGCAAGGTTCTTCTTCGTAAGAACGGTAATAAAGGAGCTGGTGGCCATAGTTACGGCGCCGATCTAAAGTCATTTGACTTAGGCGACGAGCTTGGCACTGATCCTTATGAAGATTTTCAAGAAAACTGGAACACTAAACATAGCAGTGGTGTTACCCGTGAACTCATGCGTGAGCTTAACGGAGGGGCATACACTCGCTATGTCGATAAC",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "same_variant": true,
+        "algorithm_results": {
+            "Gotoh-NW": {
+                "stats": {
+                    "matches": 296,
+                    "mismatches": 491,
+                    "gaps": 26,
+                    "identity_percent": 36.40836408364084,
+                    "coverage_percent": 96.8019680196802,
+                    "alignment_length": 813,
+                    "valid_positions": 787
+                },
+                "execution_time": 1.3402111530303955
+            },
+            "Gotoh-SW": {
+                "stats": {
+                    "matches": 182,
+                    "mismatches": 218,
+                    "gaps": 25,
+                    "identity_percent": 42.8235294117647,
+                    "coverage_percent": 94.11764705882352,
+                    "alignment_length": 425,
+                    "valid_positions": 400
+                },
+                "execution_time": 1.3587501049041748
+            },
+            "Needleman-Wunsch": {
+                "stats": {
+                    "matches": 453,
+                    "mismatches": 270,
+                    "gaps": 154,
+                    "identity_percent": 51.653363740022805,
+                    "coverage_percent": 82.44013683010262,
+                    "alignment_length": 877,
+                    "valid_positions": 723
+                },
+                "execution_time": 0.6437492370605469
+            },
+            "Smith-Waterman": {
+                "stats": {
+                    "matches": 454,
+                    "mismatches": 260,
+                    "gaps": 152,
+                    "identity_percent": 52.42494226327945,
+                    "coverage_percent": 82.44803695150115,
+                    "alignment_length": 866,
+                    "valid_positions": 714
+                },
+                "execution_time": 0.6751658916473389
+            }
+        }
+    },
+    {
+        "comparison_id": 2,
+        "seq1": {
+            "id": "NZ_JACWMH010000272.1",
+            "seq": "TTTTTACCCTCTTTTCTTTTTGTATTTAGATAACTCCCTTATCTTGCAGAACTGGGGTGATTTTTTCTTCAATTTCATTTTTTGAAACAATATTTTTCAAATAGATCATCGCCGTTTTAGGATCAACTGCGAACTTTTCGAACTGCGAACGAAAATTTTCTGCTGTGATGATCACATCTGGTTTCATGGAAACTGCGGAAGAAATATCACAATGGTCCAGTTTGGCTTCTACTCCTAATTTGTTCAAAACATCCTCAGCAGACATCTGTGCTGCAAAACTACTTCCTAAACCTGCACCGCATACGAATAAAATGTTCAATTTGTTCATCTTTGTTCTCCCCCGTATCATTTATTATTTCTCAACTACTGAAAAAAGCAGTTGTTTGAAATCTTCGATATTTGTGCATTCAATCAATCGATCCAACTTCTCTTCGTTGTTGATCAATTCAATTAGTTCTTTCATGATGTTCAGATGCGAGTAGGAGTCTACTGCTGCCAAACAAAAAATAATCTTTACTGGATCCATTTCAGGATTACCGAAATCGATTGGTTGCTCAATCGTAGCTACGCTGACTCCTAATTTATTGACCCCATCTTCTGGTCGGGCATGGGCTAGTGCCATGTGTTTGCCAATCACGATATACGGTCCGTAATCATTCACTGCACGAATCATCGCTTCGACATAGCGCTCTTCGACAATGTTTTCTTTAACCAATGGTCTAGCAGCTAGTTCAATCGATTCCTCCCAAGTAGTGGCTTTTTCTTTGATCATGATATTGCTGTCCGTCAAAATATCTTTT",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "seq2": {
+            "id": "OK413611.1",
+            "seq": "TGCCCTTTTGGTGAAGTTTTTAACGCCACCAGATTTGCATCTGTTTATGCTTGGAACAGGAAGAGAATCAGCAACTGTGTTGCTGATTATTCTGTCCTATATAATTCCGCATCATTTTCCACTTTTAAGTGTTATGGAGTGTCTCCTACTAAATTAAATGATCTCTGCTTTACTAATGTCTATGCAGATTCATTTGTAATTAGAGGTGATGAAGTCAGACAAATCGCTCCAGGGCAAACTGGAAAGATTGCTGATTATAATTATAAATTACCAGATGATTTTACAGGCTGCGTTATAGCTTGGAATTCTAACAATCTTGATTCTAAGGTTGGTGGTAATTATAATTACCTGTATAGATTGTTTAGGAAGTCTAATCTCAAACCTTTTGAGAGAGATATTTCAACTGAAATCTATCAGGCCGGTAGCACACCTTGTAATGGTGTTGAAGGTTTTAATTGTTACTTTCCTTTACAATCATATGGTTTCCAACCCACTTATGGTGTTGGTTACCAACCATACAGAGTAGTAGTACTTTCTTTTGAACTTCTACATGCACCAGCAACTGTTTGTGGACCTAAAAAGTCTACTAATTTGGTTA",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "same_variant": true,
+        "algorithm_results": {
+            "Gotoh-NW": {
+                "stats": {
+                    "matches": 290,
+                    "mismatches": 307,
+                    "gaps": 204,
+                    "identity_percent": 36.20474406991261,
+                    "coverage_percent": 74.53183520599251,
+                    "alignment_length": 801,
+                    "valid_positions": 597
+                },
+                "execution_time": 1.0021471977233887
+            },
+            "Gotoh-SW": {
+                "stats": {
+                    "matches": 174,
+                    "mismatches": 192,
+                    "gaps": 15,
+                    "identity_percent": 45.66929133858268,
+                    "coverage_percent": 96.06299212598425,
+                    "alignment_length": 381,
+                    "valid_positions": 366
+                },
+                "execution_time": 1.116055965423584
+            },
+            "Needleman-Wunsch": {
+                "stats": {
+                    "matches": 416,
+                    "mismatches": 169,
+                    "gaps": 228,
+                    "identity_percent": 51.16851168511685,
+                    "coverage_percent": 71.95571955719558,
+                    "alignment_length": 813,
+                    "valid_positions": 585
+                },
+                "execution_time": 0.5004401206970215
+            },
+            "Smith-Waterman": {
+                "stats": {
+                    "matches": 364,
+                    "mismatches": 206,
+                    "gaps": 105,
+                    "identity_percent": 53.925925925925924,
+                    "coverage_percent": 84.44444444444444,
+                    "alignment_length": 675,
+                    "valid_positions": 570
+                },
+                "execution_time": 0.5349128246307373
+            }
+        }
+    },
+    {
+        "comparison_id": 3,
+        "seq1": {
+            "id": "NZ_JACWMH010000272.1",
+            "seq": "TTTTTACCCTCTTTTCTTTTTGTATTTAGATAACTCCCTTATCTTGCAGAACTGGGGTGATTTTTTCTTCAATTTCATTTTTTGAAACAATATTTTTCAAATAGATCATCGCCGTTTTAGGATCAACTGCGAACTTTTCGAACTGCGAACGAAAATTTTCTGCTGTGATGATCACATCTGGTTTCATGGAAACTGCGGAAGAAATATCACAATGGTCCAGTTTGGCTTCTACTCCTAATTTGTTCAAAACATCCTCAGCAGACATCTGTGCTGCAAAACTACTTCCTAAACCTGCACCGCATACGAATAAAATGTTCAATTTGTTCATCTTTGTTCTCCCCCGTATCATTTATTATTTCTCAACTACTGAAAAAAGCAGTTGTTTGAAATCTTCGATATTTGTGCATTCAATCAATCGATCCAACTTCTCTTCGTTGTTGATCAATTCAATTAGTTCTTTCATGATGTTCAGATGCGAGTAGGAGTCTACTGCTGCCAAACAAAAAATAATCTTTACTGGATCCATTTCAGGATTACCGAAATCGATTGGTTGCTCAATCGTAGCTACGCTGACTCCTAATTTATTGACCCCATCTTCTGGTCGGGCATGGGCTAGTGCCATGTGTTTGCCAATCACGATATACGGTCCGTAATCATTCACTGCACGAATCATCGCTTCGACATAGCGCTCTTCGACAATGTTTTCTTTAACCAATGGTCTAGCAGCTAGTTCAATCGATTCCTCCCAAGTAGTGGCTTTTTCTTTGATCATGATATTGCTGTCCGTCAAAATATCTTTT",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "seq2": {
+            "id": "OK413607.1",
+            "seq": "TGCCCTTTTGGTGAAGTTTTTAACGCCACCAGATTTGCATCTGTTTATGCTTGGAACAGGAAGAGAATCAGCAACTGTGTTGCTGATTATTCTGTCCTATATAATTCCGCATCATTTTCCACTTTTAAGTGTTATGGAGTGTCTCCTACTAAATTAAATGATCTCTGCTTTACTAATGTCTATGCAGATTCATTTGTAATTAGAGGTGATGAAGTCAGACAAATCGCTCCAGGGCAAACTGGAAAGATTGCTGATTATAATTATAAATTACCAGATGATTTTACAGGCTGCGTTATAGCTTGGAATTCTAACAATCTTGATTCTAAGGTTGGTGGTAATTATAATTACCTGTATAGATTGTTTAGGAAGTCTAATCTCAAACCTTTTGAGAGAGATATTTCAACTGAAATCTATCAGGCCGGTAGCACACCTTGTAATGGTGTTGAAGGTTTTAATTGTTACTTTCCTTTACAATCATATGGTTTCCAACCCACTAATGGTGTTGGTTACCAACCATACAGAGTAGTAGTACTTTCTTTTGAACTTCTACATGCACCAGCAACTGTTTGTGGACCTAAAAAGTCTACTAATTTGTTTA",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "same_variant": true,
+        "algorithm_results": {
+            "Gotoh-NW": {
+                "stats": {
+                    "matches": 290,
+                    "mismatches": 307,
+                    "gaps": 204,
+                    "identity_percent": 36.20474406991261,
+                    "coverage_percent": 74.53183520599251,
+                    "alignment_length": 801,
+                    "valid_positions": 597
+                },
+                "execution_time": 1.0206177234649658
+            },
+            "Gotoh-SW": {
+                "stats": {
+                    "matches": 174,
+                    "mismatches": 192,
+                    "gaps": 15,
+                    "identity_percent": 45.66929133858268,
+                    "coverage_percent": 96.06299212598425,
+                    "alignment_length": 381,
+                    "valid_positions": 366
+                },
+                "execution_time": 1.080287218093872
+            },
+            "Needleman-Wunsch": {
+                "stats": {
+                    "matches": 415,
+                    "mismatches": 172,
+                    "gaps": 224,
+                    "identity_percent": 51.17139334155364,
+                    "coverage_percent": 72.37977805178791,
+                    "alignment_length": 811,
+                    "valid_positions": 587
+                },
+                "execution_time": 0.5286383628845215
+            },
+            "Smith-Waterman": {
+                "stats": {
+                    "matches": 366,
+                    "mismatches": 206,
+                    "gaps": 104,
+                    "identity_percent": 54.142011834319526,
+                    "coverage_percent": 84.61538461538461,
+                    "alignment_length": 676,
+                    "valid_positions": 572
+                },
+                "execution_time": 0.5299792289733887
+            }
+        }
+    },
+    {
+        "comparison_id": 4,
+        "seq1": {
+            "id": "NZ_JACWMH010000272.1",
+            "seq": "TTTTTACCCTCTTTTCTTTTTGTATTTAGATAACTCCCTTATCTTGCAGAACTGGGGTGATTTTTTCTTCAATTTCATTTTTTGAAACAATATTTTTCAAATAGATCATCGCCGTTTTAGGATCAACTGCGAACTTTTCGAACTGCGAACGAAAATTTTCTGCTGTGATGATCACATCTGGTTTCATGGAAACTGCGGAAGAAATATCACAATGGTCCAGTTTGGCTTCTACTCCTAATTTGTTCAAAACATCCTCAGCAGACATCTGTGCTGCAAAACTACTTCCTAAACCTGCACCGCATACGAATAAAATGTTCAATTTGTTCATCTTTGTTCTCCCCCGTATCATTTATTATTTCTCAACTACTGAAAAAAGCAGTTGTTTGAAATCTTCGATATTTGTGCATTCAATCAATCGATCCAACTTCTCTTCGTTGTTGATCAATTCAATTAGTTCTTTCATGATGTTCAGATGCGAGTAGGAGTCTACTGCTGCCAAACAAAAAATAATCTTTACTGGATCCATTTCAGGATTACCGAAATCGATTGGTTGCTCAATCGTAGCTACGCTGACTCCTAATTTATTGACCCCATCTTCTGGTCGGGCATGGGCTAGTGCCATGTGTTTGCCAATCACGATATACGGTCCGTAATCATTCACTGCACGAATCATCGCTTCGACATAGCGCTCTTCGACAATGTTTTCTTTAACCAATGGTCTAGCAGCTAGTTCAATCGATTCCTCCCAAGTAGTGGCTTTTTCTTTGATCATGATATTGCTGTCCGTCAAAATATCTTTT",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "seq2": {
+            "id": "OR357856.1",
+            "seq": "TTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAACTAATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATCTTCTGCAGGCTGCTTACGGTTTCGTCCGTGTTGCAGCCGATCATCAGCACATCTAGGTTTTGTCCGGGTGTGACCGAAAGGTAAGATGGAGAGCCTTGTCCCTGGTTTCAACGAGAAAACACACGTCCAACTCAGTTTGCCTGTTTTACAGGTTCGCGACGTGCTCGTACGTGGCTTTGGAGACTCCGTGGAGGAGGTCTTATCAGAGGCACGTCAACATCTTAAAGATGGCACTTGTGGCTTAGTAGAAGTTGAAAAAGGCGTTTTGCCTCAACTTGAACAGCCCTATGTGTTCATCAAACGTTCGGATGCTCGAACTGCACCTCATGGTCATGTTATGGTTGAGCTGGTAGCAGAACTCGAAGGCATTCAGTACGGTCGTAGTGGTGAGACACTTGGTGTCCTTGTCCCTCATGTGGGCGAAATACCAGTGGCTTACCGCAAGGTTCTTCTTCGTAAGAACGGTAATAAAGGAGCTGGTGGCCATAGTTACGGCGCCGATCTAAAGTCATTTGACTTAGGCGACGAGCTTGGCACTGATCCTTATGAAGATTTTCAAGAAAACTGGAACACTAAACATAGCAGTGGTGTTACCCGTGAACTCATGCGTGAGCTTAACGGAGGGGCATACACTCG",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "same_variant": true,
+        "algorithm_results": {
+            "Gotoh-NW": {
+                "stats": {
+                    "matches": 329,
+                    "mismatches": 429,
+                    "gaps": 84,
+                    "identity_percent": 39.073634204275535,
+                    "coverage_percent": 90.02375296912113,
+                    "alignment_length": 842,
+                    "valid_positions": 758
+                },
+                "execution_time": 1.3452775478363037
+            },
+            "Gotoh-SW": {
+                "stats": {
+                    "matches": 182,
+                    "mismatches": 218,
+                    "gaps": 25,
+                    "identity_percent": 42.8235294117647,
+                    "coverage_percent": 94.11764705882352,
+                    "alignment_length": 425,
+                    "valid_positions": 400
+                },
+                "execution_time": 1.4430902004241943
+            },
+            "Needleman-Wunsch": {
+                "stats": {
+                    "matches": 451,
+                    "mismatches": 268,
+                    "gaps": 162,
+                    "identity_percent": 51.19182746878547,
+                    "coverage_percent": 81.61180476730988,
+                    "alignment_length": 881,
+                    "valid_positions": 719
+                },
+                "execution_time": 0.692760705947876
+            },
+            "Smith-Waterman": {
+                "stats": {
+                    "matches": 444,
+                    "mismatches": 258,
+                    "gaps": 148,
+                    "identity_percent": 52.23529411764706,
+                    "coverage_percent": 82.58823529411765,
+                    "alignment_length": 850,
+                    "valid_positions": 702
+                },
+                "execution_time": 0.683434009552002
+            }
+        }
+    },
+    {
+        "comparison_id": 5,
+        "seq1": {
+            "id": "NZ_JACWMH010000272.1",
+            "seq": "TTTTTACCCTCTTTTCTTTTTGTATTTAGATAACTCCCTTATCTTGCAGAACTGGGGTGATTTTTTCTTCAATTTCATTTTTTGAAACAATATTTTTCAAATAGATCATCGCCGTTTTAGGATCAACTGCGAACTTTTCGAACTGCGAACGAAAATTTTCTGCTGTGATGATCACATCTGGTTTCATGGAAACTGCGGAAGAAATATCACAATGGTCCAGTTTGGCTTCTACTCCTAATTTGTTCAAAACATCCTCAGCAGACATCTGTGCTGCAAAACTACTTCCTAAACCTGCACCGCATACGAATAAAATGTTCAATTTGTTCATCTTTGTTCTCCCCCGTATCATTTATTATTTCTCAACTACTGAAAAAAGCAGTTGTTTGAAATCTTCGATATTTGTGCATTCAATCAATCGATCCAACTTCTCTTCGTTGTTGATCAATTCAATTAGTTCTTTCATGATGTTCAGATGCGAGTAGGAGTCTACTGCTGCCAAACAAAAAATAATCTTTACTGGATCCATTTCAGGATTACCGAAATCGATTGGTTGCTCAATCGTAGCTACGCTGACTCCTAATTTATTGACCCCATCTTCTGGTCGGGCATGGGCTAGTGCCATGTGTTTGCCAATCACGATATACGGTCCGTAATCATTCACTGCACGAATCATCGCTTCGACATAGCGCTCTTCGACAATGTTTTCTTTAACCAATGGTCTAGCAGCTAGTTCAATCGATTCCTCCCAAGTAGTGGCTTTTTCTTTGATCATGATATTGCTGTCCGTCAAAATATCTTTT",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "seq2": {
+            "id": "NZ_JACWLW010000113.1",
+            "seq": "CAGTTAATTTCTGAAAAAGCATATAAATGCCGTTAAAAAAGGTTTTTTATGTTATAAAATTTGGAAAACAGATAATTCTATTAAAAAATAAATTGCGAATTTTTAACAATATAAAAAAATAAAAATATGTTTAGTGAATGAAGGACAGTCATTTTATTTGTTTGTTCGCTTTTTTTAGGTTATCTATTTTAGAAGACTGATTTATTGAAAAATTGTTCGCTTTTTTGCGTTGAATTATCAGAAAAATCCGACTTTATTTATTTTTGTTTGTAAAAATCTACGTGGATTTGATGTTATAAAAAAAAAATTCTCATTTTTGGCGCTATAGTGAAGAGGTGTTACAGATAAACACATGTATCTGCAAGACATTGACCAACAAAATATGGAGGGAAGAAAAATGAAAGATATGGATATCAAGGCCGTCTTTATAGGCGACAAAGCTGAAAATGGACCAGTTTATAAAATGTTGTTGAACAAGATGGTAGATGAACATCTTGGATGGAGAGAAAATTATATTCCTTCAGATATGCCTGCAATTAGCGAAGGAGATAAGCTCACTCCAGATTATCTAGCCACCCGCGACCATATGATAGAGGTCTTGGATGAAGTCAGTCAGCGATTACGCGCAGGATCGATCCCATGGCATTCAGCAGGCCGTTACTGGGGACAAATGAATGCTGAAACATTGATGCCTGCTTTATTAGCTTACAACTATGCGATGCTGTGGAACCCAAATAATGTTGCATTGGAATCTTCTATGGCAACTTCGCAAATGGAAGCAGAAGTAGGACAGGATTTTG",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "same_variant": true,
+        "algorithm_results": {
+            "Gotoh-NW": {
+                "stats": {
+                    "matches": 337,
+                    "mismatches": 426,
+                    "gaps": 74,
+                    "identity_percent": 40.26284348864994,
+                    "coverage_percent": 91.15890083632019,
+                    "alignment_length": 837,
+                    "valid_positions": 763
+                },
+                "execution_time": 1.4559423923492432
+            },
+            "Gotoh-SW": {
+                "stats": {
+                    "matches": 221,
+                    "mismatches": 276,
+                    "gaps": 30,
+                    "identity_percent": 41.935483870967744,
+                    "coverage_percent": 94.30740037950665,
+                    "alignment_length": 527,
+                    "valid_positions": 497
+                },
+                "execution_time": 1.4334323406219482
+            },
+            "Needleman-Wunsch": {
+                "stats": {
+                    "matches": 446,
+                    "mismatches": 285,
+                    "gaps": 138,
+                    "identity_percent": 51.32336018411968,
+                    "coverage_percent": 84.11967779056386,
+                    "alignment_length": 869,
+                    "valid_positions": 731
+                },
+                "execution_time": 0.6917977333068848
+            },
+            "Smith-Waterman": {
+                "stats": {
+                    "matches": 436,
+                    "mismatches": 285,
+                    "gaps": 115,
+                    "identity_percent": 52.15311004784689,
+                    "coverage_percent": 86.24401913875597,
+                    "alignment_length": 836,
+                    "valid_positions": 721
+                },
+                "execution_time": 0.7087907791137695
+            }
+        }
+    },
+    {
+        "comparison_id": 6,
+        "seq1": {
+            "id": "NZ_JACWMH010000272.1",
+            "seq": "TTTTTACCCTCTTTTCTTTTTGTATTTAGATAACTCCCTTATCTTGCAGAACTGGGGTGATTTTTTCTTCAATTTCATTTTTTGAAACAATATTTTTCAAATAGATCATCGCCGTTTTAGGATCAACTGCGAACTTTTCGAACTGCGAACGAAAATTTTCTGCTGTGATGATCACATCTGGTTTCATGGAAACTGCGGAAGAAATATCACAATGGTCCAGTTTGGCTTCTACTCCTAATTTGTTCAAAACATCCTCAGCAGACATCTGTGCTGCAAAACTACTTCCTAAACCTGCACCGCATACGAATAAAATGTTCAATTTGTTCATCTTTGTTCTCCCCCGTATCATTTATTATTTCTCAACTACTGAAAAAAGCAGTTGTTTGAAATCTTCGATATTTGTGCATTCAATCAATCGATCCAACTTCTCTTCGTTGTTGATCAATTCAATTAGTTCTTTCATGATGTTCAGATGCGAGTAGGAGTCTACTGCTGCCAAACAAAAAATAATCTTTACTGGATCCATTTCAGGATTACCGAAATCGATTGGTTGCTCAATCGTAGCTACGCTGACTCCTAATTTATTGACCCCATCTTCTGGTCGGGCATGGGCTAGTGCCATGTGTTTGCCAATCACGATATACGGTCCGTAATCATTCACTGCACGAATCATCGCTTCGACATAGCGCTCTTCGACAATGTTTTCTTTAACCAATGGTCTAGCAGCTAGTTCAATCGATTCCTCCCAAGTAGTGGCTTTTTCTTTGATCATGATATTGCTGTCCGTCAAAATATCTTTT",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "seq2": {
+            "id": "NM_001010934.3",
+            "seq": "AGGCACTGACTCCGAACAGGATTCTTTCACCCAGGCATCTCCTCCAGAGGGATCCGCCAGCCCGTCCAGCAGCACCATGTGGGTGACCAAACTCCTGCCAGCCCTGCTGCTGCAGCATGTCCTCCTGCATCTCCTCCTGCTCCCCATCGCCATCCCCTATGCAGAGGGACAAAGGAAAAGAAGAAATACAATTCATGAATTCAAAAAATCAGCAAAGACTACCCTAATCAAAATAGATCCAGCACTGAAGATAAAAACCAAAAAAGTGAATACTGCAGACCAATGTGCTAATAGATGTACTAGGAATAAAGGACTTCCATTCACTTGCAAGGCTTTTGTTTTTGATAAAGCAAGAAAACAATGCCTCTGGTTCCCCTTCAATAGCATGTCAAGTGGAGTGAAAAAAGAATTTGGCCATGAATTTGACCTCTATGAAAACAAAGACTACATTAGAAACTGCATCATTGGTAAAGGACGCAGCTACAAGGGAACAGTATCTATCACTAAGAGTGGCATCAAATGTCAGCCCTGGAGTTCCATGATACCACACGAACACAGCTTTTTGCCTTCGAGCTATCGGGGTAAAGACCTACAGGAAAACTACTGTCGAAATCCTCGAGGGGAAGAAGGGGGACCCTGGTGTTTCACAAGCAATCCAGAGGTACGCTACGAAGTCTGTGACATTCCTCAGTGTTCAGAAGGTAAATAAACCTGAATGCCATGTGGGCCATTCTATTCCCCCTATGTGTAGAACTGTAACTCACATTAAAGGTTAACAGCAACGAATCAATCATAACAAA",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "same_variant": true,
+        "algorithm_results": {
+            "Gotoh-NW": {
+                "stats": {
+                    "matches": 325,
+                    "mismatches": 431,
+                    "gaps": 88,
+                    "identity_percent": 38.507109004739334,
+                    "coverage_percent": 89.57345971563981,
+                    "alignment_length": 844,
+                    "valid_positions": 756
+                },
+                "execution_time": 1.3525042533874512
+            },
+            "Gotoh-SW": {
+                "stats": {
+                    "matches": 246,
+                    "mismatches": 278,
+                    "gaps": 57,
+                    "identity_percent": 42.3407917383821,
+                    "coverage_percent": 90.18932874354562,
+                    "alignment_length": 581,
+                    "valid_positions": 524
+                },
+                "execution_time": 1.4622981548309326
+            },
+            "Needleman-Wunsch": {
+                "stats": {
+                    "matches": 451,
+                    "mismatches": 265,
+                    "gaps": 168,
+                    "identity_percent": 51.01809954751131,
+                    "coverage_percent": 80.99547511312217,
+                    "alignment_length": 884,
+                    "valid_positions": 716
+                },
+                "execution_time": 0.6259322166442871
+            },
+            "Smith-Waterman": {
+                "stats": {
+                    "matches": 429,
+                    "mismatches": 265,
+                    "gaps": 125,
+                    "identity_percent": 52.38095238095239,
+                    "coverage_percent": 84.73748473748473,
+                    "alignment_length": 819,
+                    "valid_positions": 694
+                },
+                "execution_time": 0.6799376010894775
+            }
+        }
+    },
+    {
+        "comparison_id": 7,
+        "seq1": {
+            "id": "NZ_JACWMH010000272.1",
+            "seq": "TTTTTACCCTCTTTTCTTTTTGTATTTAGATAACTCCCTTATCTTGCAGAACTGGGGTGATTTTTTCTTCAATTTCATTTTTTGAAACAATATTTTTCAAATAGATCATCGCCGTTTTAGGATCAACTGCGAACTTTTCGAACTGCGAACGAAAATTTTCTGCTGTGATGATCACATCTGGTTTCATGGAAACTGCGGAAGAAATATCACAATGGTCCAGTTTGGCTTCTACTCCTAATTTGTTCAAAACATCCTCAGCAGACATCTGTGCTGCAAAACTACTTCCTAAACCTGCACCGCATACGAATAAAATGTTCAATTTGTTCATCTTTGTTCTCCCCCGTATCATTTATTATTTCTCAACTACTGAAAAAAGCAGTTGTTTGAAATCTTCGATATTTGTGCATTCAATCAATCGATCCAACTTCTCTTCGTTGTTGATCAATTCAATTAGTTCTTTCATGATGTTCAGATGCGAGTAGGAGTCTACTGCTGCCAAACAAAAAATAATCTTTACTGGATCCATTTCAGGATTACCGAAATCGATTGGTTGCTCAATCGTAGCTACGCTGACTCCTAATTTATTGACCCCATCTTCTGGTCGGGCATGGGCTAGTGCCATGTGTTTGCCAATCACGATATACGGTCCGTAATCATTCACTGCACGAATCATCGCTTCGACATAGCGCTCTTCGACAATGTTTTCTTTAACCAATGGTCTAGCAGCTAGTTCAATCGATTCCTCCCAAGTAGTGGCTTTTTCTTTGATCATGATATTGCTGTCCGTCAAAATATCTTTT",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "seq2": {
+            "id": "OR357774.1",
+            "seq": "CAAACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAACTAATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATCTTCTGCAGGCTGCTTACGGTTTCGTCCGTGTTGCAGCCGATCATCAGCACATCTAGGTTTTGTCCGGGTGTGACCGAAAGGTAAGATGGAGAGCCTTGTCCCTGGTTTCAACGAGAAAACACACGTCCAACTCAGTTTGCCTGTTTTACAGGTTCGCGACGTGCTCGTACGTGGCTTTGGAGACTCCGTGGAGGAGGTCTTATCAGAGGCACGTCAACATCTTAAAGATGGCACTTGTGGCTTAGTAGAAGTTGAAAAAGGCGTTTTGCCTCAACTTGAACAGCCCTATGTGTTCATCAAACGTTCGGATGCTCGAACTGCACCTCATGGTCATGTTATGGTTGAGCTGGTAGCAGAACTCGAAGGCATTCAGTACGGTCGTAGTGGTGAGACACTTGGTGTCCTTGTCCCTCATGTGGGCGAAATACCAGTGGCTTACCGCAAGGTTCTTCTTCGTAAGAACGGTAATAAAGGAGCTGGTGGCCATAGTTACGGCGCCGATCTAAAGTCATTTGACTTAGGCGACGAGCTTGGCACTGATCCTTATGAAGATTTTCAAGAAAACTGGAACACTAAACATAGCAGTGGTGTTACCCGTGAACTCATGCGTGAGCTTAACGGAGGGGCATACACTCGCTATGTCGATA",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "same_variant": true,
+        "algorithm_results": {
+            "Gotoh-NW": {
+                "stats": {
+                    "matches": 296,
+                    "mismatches": 489,
+                    "gaps": 30,
+                    "identity_percent": 36.31901840490798,
+                    "coverage_percent": 96.31901840490798,
+                    "alignment_length": 815,
+                    "valid_positions": 785
+                },
+                "execution_time": 1.3172709941864014
+            },
+            "Gotoh-SW": {
+                "stats": {
+                    "matches": 182,
+                    "mismatches": 218,
+                    "gaps": 25,
+                    "identity_percent": 42.8235294117647,
+                    "coverage_percent": 94.11764705882352,
+                    "alignment_length": 425,
+                    "valid_positions": 400
+                },
+                "execution_time": 1.4113812446594238
+            },
+            "Needleman-Wunsch": {
+                "stats": {
+                    "matches": 447,
+                    "mismatches": 279,
+                    "gaps": 148,
+                    "identity_percent": 51.1441647597254,
+                    "coverage_percent": 83.06636155606407,
+                    "alignment_length": 874,
+                    "valid_positions": 726
+                },
+                "execution_time": 0.6285631656646729
+            },
+            "Smith-Waterman": {
+                "stats": {
+                    "matches": 453,
+                    "mismatches": 261,
+                    "gaps": 151,
+                    "identity_percent": 52.369942196531795,
+                    "coverage_percent": 82.54335260115607,
+                    "alignment_length": 865,
+                    "valid_positions": 714
+                },
+                "execution_time": 0.6913444995880127
+            }
+        }
+    },
+    {
+        "comparison_id": 8,
+        "seq1": {
+            "id": "NZ_JACWMH010000272.1",
+            "seq": "TTTTTACCCTCTTTTCTTTTTGTATTTAGATAACTCCCTTATCTTGCAGAACTGGGGTGATTTTTTCTTCAATTTCATTTTTTGAAACAATATTTTTCAAATAGATCATCGCCGTTTTAGGATCAACTGCGAACTTTTCGAACTGCGAACGAAAATTTTCTGCTGTGATGATCACATCTGGTTTCATGGAAACTGCGGAAGAAATATCACAATGGTCCAGTTTGGCTTCTACTCCTAATTTGTTCAAAACATCCTCAGCAGACATCTGTGCTGCAAAACTACTTCCTAAACCTGCACCGCATACGAATAAAATGTTCAATTTGTTCATCTTTGTTCTCCCCCGTATCATTTATTATTTCTCAACTACTGAAAAAAGCAGTTGTTTGAAATCTTCGATATTTGTGCATTCAATCAATCGATCCAACTTCTCTTCGTTGTTGATCAATTCAATTAGTTCTTTCATGATGTTCAGATGCGAGTAGGAGTCTACTGCTGCCAAACAAAAAATAATCTTTACTGGATCCATTTCAGGATTACCGAAATCGATTGGTTGCTCAATCGTAGCTACGCTGACTCCTAATTTATTGACCCCATCTTCTGGTCGGGCATGGGCTAGTGCCATGTGTTTGCCAATCACGATATACGGTCCGTAATCATTCACTGCACGAATCATCGCTTCGACATAGCGCTCTTCGACAATGTTTTCTTTAACCAATGGTCTAGCAGCTAGTTCAATCGATTCCTCCCAAGTAGTGGCTTTTTCTTTGATCATGATATTGCTGTCCGTCAAAATATCTTTT",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "seq2": {
+            "id": "OR353163.1",
+            "seq": "ACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAACTAATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATCTTCTGCAGGCTGCTTACGGTTTCGTCCGTGTTGCAGCCGATCATCAGCACATCTAGGTTTTGTCCGGGTGTGACCGAAAGGTAAGATGGAGAGCCTTGTCCCTGGTTTCAACGAGAAAACACACGTCCAACTCAGTTTGCCTGTTTTACAGGTTCGCGACGTGCTCGTACGTGGCTTTGGAGACTCCGTGGAGGAGGTCTTATCAGAGGCACGTCAACATCTTAAAGATGGCACTTGTGGCTTAGTAGAAGTTGAAAAAGGCGTTTTGCCTCAACTTGAACAGCCCTATGTGTTCATCAAACGTTCGGATGCTCGAACTGCACCTCATGGTCATGTTATGGTTGAGCTGGTAGCAGAACTCGAAGGCATTCAGTACGGTCGTAGTGGTGAGACACTTGGTGTCCTTGTCCCTCATGTGGGCGAAATACCAGTGGCTTACCGCAAGGTTCTTCTTCGTAAGAACGGTAATAAAGGAGCTGGTGGCCATAGTTACGGCGCCGATCTAAAGTCATTTGACTTAGGCGACGAGCTTGGCACTGATCCTTATGAAGATTTTCAAGAAAACTGGAACACTAAACATAGCAGTGGTGTTACCCGTGAACTCATGCGTGAGCTTAACGGAGGGGCATACACTCGCTATGTCGATAACA",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "same_variant": true,
+        "algorithm_results": {
+            "Gotoh-NW": {
+                "stats": {
+                    "matches": 289,
+                    "mismatches": 499,
+                    "gaps": 24,
+                    "identity_percent": 35.59113300492611,
+                    "coverage_percent": 97.04433497536947,
+                    "alignment_length": 812,
+                    "valid_positions": 788
+                },
+                "execution_time": 1.6260077953338623
+            },
+            "Gotoh-SW": {
+                "stats": {
+                    "matches": 182,
+                    "mismatches": 218,
+                    "gaps": 25,
+                    "identity_percent": 42.8235294117647,
+                    "coverage_percent": 94.11764705882352,
+                    "alignment_length": 425,
+                    "valid_positions": 400
+                },
+                "execution_time": 2.1594998836517334
+            },
+            "Needleman-Wunsch": {
+                "stats": {
+                    "matches": 455,
+                    "mismatches": 266,
+                    "gaps": 158,
+                    "identity_percent": 51.763367463026164,
+                    "coverage_percent": 82.0250284414107,
+                    "alignment_length": 879,
+                    "valid_positions": 721
+                },
+                "execution_time": 1.4947535991668701
+            },
+            "Smith-Waterman": {
+                "stats": {
+                    "matches": 455,
+                    "mismatches": 261,
+                    "gaps": 152,
+                    "identity_percent": 52.41935483870967,
+                    "coverage_percent": 82.48847926267281,
+                    "alignment_length": 868,
+                    "valid_positions": 716
+                },
+                "execution_time": 1.1143145561218262
+            }
+        }
+    },
+    {
+        "comparison_id": 9,
+        "seq1": {
+            "id": "NZ_JACWMH010000272.1",
+            "seq": "TTTTTACCCTCTTTTCTTTTTGTATTTAGATAACTCCCTTATCTTGCAGAACTGGGGTGATTTTTTCTTCAATTTCATTTTTTGAAACAATATTTTTCAAATAGATCATCGCCGTTTTAGGATCAACTGCGAACTTTTCGAACTGCGAACGAAAATTTTCTGCTGTGATGATCACATCTGGTTTCATGGAAACTGCGGAAGAAATATCACAATGGTCCAGTTTGGCTTCTACTCCTAATTTGTTCAAAACATCCTCAGCAGACATCTGTGCTGCAAAACTACTTCCTAAACCTGCACCGCATACGAATAAAATGTTCAATTTGTTCATCTTTGTTCTCCCCCGTATCATTTATTATTTCTCAACTACTGAAAAAAGCAGTTGTTTGAAATCTTCGATATTTGTGCATTCAATCAATCGATCCAACTTCTCTTCGTTGTTGATCAATTCAATTAGTTCTTTCATGATGTTCAGATGCGAGTAGGAGTCTACTGCTGCCAAACAAAAAATAATCTTTACTGGATCCATTTCAGGATTACCGAAATCGATTGGTTGCTCAATCGTAGCTACGCTGACTCCTAATTTATTGACCCCATCTTCTGGTCGGGCATGGGCTAGTGCCATGTGTTTGCCAATCACGATATACGGTCCGTAATCATTCACTGCACGAATCATCGCTTCGACATAGCGCTCTTCGACAATGTTTTCTTTAACCAATGGTCTAGCAGCTAGTTCAATCGATTCCTCCCAAGTAGTGGCTTTTTCTTTGATCATGATATTGCTGTCCGTCAAAATATCTTTT",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "seq2": {
+            "id": "OR357850.1",
+            "seq": "ACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAACTAATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATCTTCTGCAGGCTGCTTACGGTTTCGTCCGTGTTGCAGCCGATCATCAGCACATCTAGGTTTTGTCCGGGTGTGACCGAAAGGTAAGATGGAGAGCCTTGTCCCTGGTTTCAACGAGAAAACACACGTCCAACTCAGTTTGCCTGTTTTACAGGTTCGCGACGTGCTCGTACGTGGCTTTGGAGACTCCGTGGAGGAGGTCTTATCAGAGGCACGTCAACATCTTAAAGATGGCACTTGTGGCTTAGTAGAAGTTGAAAAAGGCGTTTTGCCTCAACTTGAACAGCCCTATGTGTTCATCAAACGTTCGGATGCTCGAACTGCACCTCATGGTCATGTTATGGTTGAGCTGGTAGCAGAACTCGAAGGCATTCAGTACGGTCGTAGTGGTGAGACACTTGGTGTCCTTGTCCCTCATGTGGGCGAAATACCAGTGGCTTACCGCAAGGTTCTTCTTCGTAAGAACGGTAATAAAGGAGCTGGTGGCCATAGTTACGGCGCCGATCTAAAGTCATTTGACTTAGGCGACGAGCTTGGCACTGATCCTTATGAAGATTTTCAAGAAAACTGGAACACTAAACATAGCAGTGGTGTTACCCGTGAACTCATGCGTGAGCTTAACGGAGGGGCATACACTCGCTATGTCGATAACA",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "same_variant": true,
+        "algorithm_results": {
+            "Gotoh-NW": {
+                "stats": {
+                    "matches": 289,
+                    "mismatches": 499,
+                    "gaps": 24,
+                    "identity_percent": 35.59113300492611,
+                    "coverage_percent": 97.04433497536947,
+                    "alignment_length": 812,
+                    "valid_positions": 788
+                },
+                "execution_time": 2.0104148387908936
+            },
+            "Gotoh-SW": {
+                "stats": {
+                    "matches": 182,
+                    "mismatches": 218,
+                    "gaps": 25,
+                    "identity_percent": 42.8235294117647,
+                    "coverage_percent": 94.11764705882352,
+                    "alignment_length": 425,
+                    "valid_positions": 400
+                },
+                "execution_time": 1.8119330406188965
+            },
+            "Needleman-Wunsch": {
+                "stats": {
+                    "matches": 455,
+                    "mismatches": 266,
+                    "gaps": 158,
+                    "identity_percent": 51.763367463026164,
+                    "coverage_percent": 82.0250284414107,
+                    "alignment_length": 879,
+                    "valid_positions": 721
+                },
+                "execution_time": 0.6331555843353271
+            },
+            "Smith-Waterman": {
+                "stats": {
+                    "matches": 455,
+                    "mismatches": 261,
+                    "gaps": 152,
+                    "identity_percent": 52.41935483870967,
+                    "coverage_percent": 82.48847926267281,
+                    "alignment_length": 868,
+                    "valid_positions": 716
+                },
+                "execution_time": 0.6613235473632812
+            }
+        }
+    },
+    {
+        "comparison_id": 10,
+        "seq1": {
+            "id": "NZ_JACWMH010000272.1",
+            "seq": "TTTTTACCCTCTTTTCTTTTTGTATTTAGATAACTCCCTTATCTTGCAGAACTGGGGTGATTTTTTCTTCAATTTCATTTTTTGAAACAATATTTTTCAAATAGATCATCGCCGTTTTAGGATCAACTGCGAACTTTTCGAACTGCGAACGAAAATTTTCTGCTGTGATGATCACATCTGGTTTCATGGAAACTGCGGAAGAAATATCACAATGGTCCAGTTTGGCTTCTACTCCTAATTTGTTCAAAACATCCTCAGCAGACATCTGTGCTGCAAAACTACTTCCTAAACCTGCACCGCATACGAATAAAATGTTCAATTTGTTCATCTTTGTTCTCCCCCGTATCATTTATTATTTCTCAACTACTGAAAAAAGCAGTTGTTTGAAATCTTCGATATTTGTGCATTCAATCAATCGATCCAACTTCTCTTCGTTGTTGATCAATTCAATTAGTTCTTTCATGATGTTCAGATGCGAGTAGGAGTCTACTGCTGCCAAACAAAAAATAATCTTTACTGGATCCATTTCAGGATTACCGAAATCGATTGGTTGCTCAATCGTAGCTACGCTGACTCCTAATTTATTGACCCCATCTTCTGGTCGGGCATGGGCTAGTGCCATGTGTTTGCCAATCACGATATACGGTCCGTAATCATTCACTGCACGAATCATCGCTTCGACATAGCGCTCTTCGACAATGTTTTCTTTAACCAATGGTCTAGCAGCTAGTTCAATCGATTCCTCCCAAGTAGTGGCTTTTTCTTTGATCATGATATTGCTGTCCGTCAAAATATCTTTT",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "seq2": {
+            "id": "OK413588.1",
+            "seq": "TGCCCTTTTGGTGAAGTTTTTAACGCCACCAGATTTGCATCTGTTTATGCTTGGAACAGGAAGAGAATCAGCAACTGTGTTGCTGATTATTCTGTCCTATATAATTCCGCATCATTTTCCACTTTTAAGTGTTATGGAGTGTCTCCTACTAAATTAAATGATCTCTGCTTTACTAATGTCTATGCAGATTCATTTGTAATTAGAGGTGATGAAGTCAGACAAATCGCTCCAGGGCAAACTGGAAAGATTGCTGATTATAATTATAAATTACCAGATGATTTTACAGGCTGCGTTATAGCTTGGAATTCTAACAATCTTGATTCTAAGGTTGGTGGTAATTATAATTACCTGTATAGATTGTTTAGGAAGTCTAATCTCAAACCTTTTGAGAGAGATATTTCAACTGAAATCTATCAGGCCGGTAGCACACCTTGTAATGGTGTTGAAGGTTTTAATTGTTACTTTCCTTTACAATCATATGGTTTCCAACCCACTTATGGTGTTGGTTACCAACCATACAGAGTAGTAGTACTTTCTTTTGAACTTCTACATGCACCAGCAACTGTTTGTGGACCTAAAAAGTCTACTAATTTGGTTA",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "same_variant": true,
+        "algorithm_results": {
+            "Gotoh-NW": {
+                "stats": {
+                    "matches": 290,
+                    "mismatches": 307,
+                    "gaps": 204,
+                    "identity_percent": 36.20474406991261,
+                    "coverage_percent": 74.53183520599251,
+                    "alignment_length": 801,
+                    "valid_positions": 597
+                },
+                "execution_time": 1.0158238410949707
+            },
+            "Gotoh-SW": {
+                "stats": {
+                    "matches": 174,
+                    "mismatches": 192,
+                    "gaps": 15,
+                    "identity_percent": 45.66929133858268,
+                    "coverage_percent": 96.06299212598425,
+                    "alignment_length": 381,
+                    "valid_positions": 366
+                },
+                "execution_time": 1.448742151260376
+            },
+            "Needleman-Wunsch": {
+                "stats": {
+                    "matches": 416,
+                    "mismatches": 169,
+                    "gaps": 228,
+                    "identity_percent": 51.16851168511685,
+                    "coverage_percent": 71.95571955719558,
+                    "alignment_length": 813,
+                    "valid_positions": 585
+                },
+                "execution_time": 0.8032839298248291
+            },
+            "Smith-Waterman": {
+                "stats": {
+                    "matches": 364,
+                    "mismatches": 206,
+                    "gaps": 105,
+                    "identity_percent": 53.925925925925924,
+                    "coverage_percent": 84.44444444444444,
+                    "alignment_length": 675,
+                    "valid_positions": 570
+                },
+                "execution_time": 0.6010329723358154
+            }
+        }
+    },
+    {
+        "comparison_id": 11,
+        "seq1": {
+            "id": "NZ_JACWMH010000272.1",
+            "seq": "TTTTTACCCTCTTTTCTTTTTGTATTTAGATAACTCCCTTATCTTGCAGAACTGGGGTGATTTTTTCTTCAATTTCATTTTTTGAAACAATATTTTTCAAATAGATCATCGCCGTTTTAGGATCAACTGCGAACTTTTCGAACTGCGAACGAAAATTTTCTGCTGTGATGATCACATCTGGTTTCATGGAAACTGCGGAAGAAATATCACAATGGTCCAGTTTGGCTTCTACTCCTAATTTGTTCAAAACATCCTCAGCAGACATCTGTGCTGCAAAACTACTTCCTAAACCTGCACCGCATACGAATAAAATGTTCAATTTGTTCATCTTTGTTCTCCCCCGTATCATTTATTATTTCTCAACTACTGAAAAAAGCAGTTGTTTGAAATCTTCGATATTTGTGCATTCAATCAATCGATCCAACTTCTCTTCGTTGTTGATCAATTCAATTAGTTCTTTCATGATGTTCAGATGCGAGTAGGAGTCTACTGCTGCCAAACAAAAAATAATCTTTACTGGATCCATTTCAGGATTACCGAAATCGATTGGTTGCTCAATCGTAGCTACGCTGACTCCTAATTTATTGACCCCATCTTCTGGTCGGGCATGGGCTAGTGCCATGTGTTTGCCAATCACGATATACGGTCCGTAATCATTCACTGCACGAATCATCGCTTCGACATAGCGCTCTTCGACAATGTTTTCTTTAACCAATGGTCTAGCAGCTAGTTCAATCGATTCCTCCCAAGTAGTGGCTTTTTCTTTGATCATGATATTGCTGTCCGTCAAAATATCTTTT",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "seq2": {
+            "id": "OR353169.1",
+            "seq": "AACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGTTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAACTAATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATCTTCTGCAGGCTGCTTACGGTTTCGTCCGTGTTGCAGCCGATCATCAGCACATCTAGGTTTTGTCCGGGTGTGACCGAAAGGTAAGATGGAGAGCCTTGTCCCTGGTTTCAACGAGAAAACACACGTCCAACTCAGTTTGCCTGTTTTACAGGTTCGCGACGTGCTCGTACGTGGCTTTGGAGACTCCGTGGAGGAGGTCTTATCAGAGGCACGTCAACATCTTAAAGATGGCACTTGTGGCTTAGTAGAAGTTGAAAAAGGCGTTTTGCCTCAACTTGAACAGCCCTATGTGTTCATCAAACGTTCGGATGCTCGAACTGCACCTCATGGTCATGTTATGGTTGAGCTGGTAGCAGAACTCGAAGGCATTCAGTACGGTCGTAGTGGTGAGACACTTGGTGTCCTTGTCCCTCATGTGGGCGAAATACCAGTGGCTTACCGCAAGGTTCTTCTTCGTAAGAACGGTAATAAAGGAGCTGGTGGCCATAGTTACGGCGCCGATCTAAAGTCATTTGACTTAGGCGACGAGCTTGGCACTGATCCTTATGAAGATTTTCAAGAAAACTGGAACACTAAACATAGCAGTGGTGTTACCCGTGAACTCATGCGTGAGCTTAACGGAGGGGCATACACTCGCTATGTCGATAAC",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "same_variant": true,
+        "algorithm_results": {
+            "Gotoh-NW": {
+                "stats": {
+                    "matches": 300,
+                    "mismatches": 485,
+                    "gaps": 30,
+                    "identity_percent": 36.809815950920246,
+                    "coverage_percent": 96.31901840490798,
+                    "alignment_length": 815,
+                    "valid_positions": 785
+                },
+                "execution_time": 1.6427924633026123
+            },
+            "Gotoh-SW": {
+                "stats": {
+                    "matches": 183,
+                    "mismatches": 217,
+                    "gaps": 25,
+                    "identity_percent": 43.05882352941177,
+                    "coverage_percent": 94.11764705882352,
+                    "alignment_length": 425,
+                    "valid_positions": 400
+                },
+                "execution_time": 1.7571232318878174
+            },
+            "Needleman-Wunsch": {
+                "stats": {
+                    "matches": 456,
+                    "mismatches": 265,
+                    "gaps": 158,
+                    "identity_percent": 51.877133105802045,
+                    "coverage_percent": 82.0250284414107,
+                    "alignment_length": 879,
+                    "valid_positions": 721
+                },
+                "execution_time": 0.7571697235107422
+            },
+            "Smith-Waterman": {
+                "stats": {
+                    "matches": 455,
+                    "mismatches": 259,
+                    "gaps": 153,
+                    "identity_percent": 52.479815455594,
+                    "coverage_percent": 82.35294117647058,
+                    "alignment_length": 867,
+                    "valid_positions": 714
+                },
+                "execution_time": 0.7855050563812256
+            }
+        }
+    },
+    {
+        "comparison_id": 12,
+        "seq1": {
+            "id": "NZ_JACWMH010000272.1",
+            "seq": "TTTTTACCCTCTTTTCTTTTTGTATTTAGATAACTCCCTTATCTTGCAGAACTGGGGTGATTTTTTCTTCAATTTCATTTTTTGAAACAATATTTTTCAAATAGATCATCGCCGTTTTAGGATCAACTGCGAACTTTTCGAACTGCGAACGAAAATTTTCTGCTGTGATGATCACATCTGGTTTCATGGAAACTGCGGAAGAAATATCACAATGGTCCAGTTTGGCTTCTACTCCTAATTTGTTCAAAACATCCTCAGCAGACATCTGTGCTGCAAAACTACTTCCTAAACCTGCACCGCATACGAATAAAATGTTCAATTTGTTCATCTTTGTTCTCCCCCGTATCATTTATTATTTCTCAACTACTGAAAAAAGCAGTTGTTTGAAATCTTCGATATTTGTGCATTCAATCAATCGATCCAACTTCTCTTCGTTGTTGATCAATTCAATTAGTTCTTTCATGATGTTCAGATGCGAGTAGGAGTCTACTGCTGCCAAACAAAAAATAATCTTTACTGGATCCATTTCAGGATTACCGAAATCGATTGGTTGCTCAATCGTAGCTACGCTGACTCCTAATTTATTGACCCCATCTTCTGGTCGGGCATGGGCTAGTGCCATGTGTTTGCCAATCACGATATACGGTCCGTAATCATTCACTGCACGAATCATCGCTTCGACATAGCGCTCTTCGACAATGTTTTCTTTAACCAATGGTCTAGCAGCTAGTTCAATCGATTCCTCCCAAGTAGTGGCTTTTTCTTTGATCATGATATTGCTGTCCGTCAAAATATCTTTT",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "seq2": {
+            "id": "OR353166.1",
+            "seq": "ACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCACTTGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAACTAATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATCTTCTGCAGGCTGCTTACGGTTTCGTCCGTGTTGCAGCCGATCATCAGCACATCTAGGTTTTGTCCGGGTGTGACCGAAAGGTAAGATGGAGAGCCTTGTCCCTGGTTTCAACGAGAAAACACACGTCCAACTCAGTTTGCCTGTTTTACAGGTTCGCGACGTGCTCGTACGTGGCTTTGGAGACTCCGTGGAGGAGGTCTTATCAGAGGCACGTCAACATCTTAAAGATGGCACTTGTGGCTTAGTAGAAGTTGAAAAAGGCGTTTTGCCTCAACTTGAACAGCCCTATGTGTTCATCAAACGTTCGGATGCTCGAACTGCACCTCATGGTCATGTTATGGTTGAGCTGGTAGCAGAACTCGAAGGCATTCAGTACGGTCGTAGTGGTGAGACACTTGGTGTCCTTGTCCCTCATGTGGGCGAAATACCAGTGGCTTACCGCAAGGTTCTTCTTCGTAAGAACGGTAATAAAGGAGCTGGTGGCCATAGTTACGGCGCCGATCTAAAGTCATTTGACTTAGGCGACGAGCTTGGCACTGATCCTTATGAAGATTTTCAAGAAAACTGGAACACTAAACATAGCAGTGGTGTTACCCGTGAACTCATGCGTGAGCTTAACGGAGGGGCATACACTCGCTATGTCGATAACA",
+            "file": "alpha_b117_spike.fasta",
+            "variant": "Unknown"
+        },
+        "same_variant": true,
+        "algorithm_results": {
+            "Gotoh-NW": {
+                "stats": {
+                    "matches": 290,
+                    "mismatches": 498,
+                    "gaps": 24,
+                    "identity_percent": 35.714285714285715,
+                    "coverage_percent": 97.04433497536947,
+                    "alignment_length": 812,
+                    "valid_positions": 788
+                },
+                "execution_time": 1.4106011390686035
+            },
+            "Gotoh-SW": {
+                "stats": {
+                    "matches": 182,
+                    "mismatches": 218,
+                    "gaps": 25,
+                    "identity_percent": 42.8235294117647,
+                    "coverage_percent": 94.11764705882352,
+                    "alignment_length": 425,
+                    "valid_positions": 400
+                },
+                "execution_time": 1.6967225074768066
+            },
+            "Needleman-Wunsch": {
+                "stats": {
+                    "matches": 453,
+                    "mismatches": 270,
+                    "gaps": 154,
+                    "identity_percent": 51.653363740022805,
+                    "coverage_percent": 82.44013683010262,
+                    "alignment_length": 877,
+                    "valid_positions": 723
+                },
+                "execution_time": 0.6864147186279297
+            },
+            "Smith-Waterman": {
+                "stats": {
+                    "matches": 455,
+                    "mismatches": 261,
+                    "gaps": 152,
+                    "identity_percent": 52.41935483870967,
+                    "coverage_percent": 82.48847926267281,
+                    "alignment_length": 868,
+                    "valid_positions": 716
+                },
+                "execution_time": 0.6627659797668457
+            }
+        }
+    }
+]

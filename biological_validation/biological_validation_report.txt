@@ -1,0 +1,57 @@
+SARS-CoV-2 sequence alignment biological validation report
+============================================================
+
+Validation time: 2026-04-13 08:28:10
+
+1. Methods overview
+--------------------
+This validation is based on known SARS-CoV-2 biological features:
+• Functional domain conservation: critical domains should remain conserved
+• Variant recognition: algorithms should discriminate different variants
+• Real data performance: behavior on actual sequence datasets
+
+2. Functional domain conservation
+-------------------------
+
+Domain: RBD
+Function: Binds to ACE2 receptor
+Length: 223 aa
+Needleman-Wunsch identity: 95.51569506726457
+Smith-Waterman identity: 95.94594594594594
+PASS: Domain conservation is high
+----------------------------------------
+
+Domain: NTD
+Function: N-terminal domain
+Length: 292 aa
+Needleman-Wunsch identity: 95.2054794520548
+Smith-Waterman identity: 95.2054794520548
+PASS: Domain conservation is high
+----------------------------------------
+
+4. Real data performance analysis
+----------------------
+Total comparisons: 15
+Within-variant comparisons: 15
+Across-variant comparisons: 0
+
+Within-variant identity statistics:
+  NW mean: 99.86% ± 0.16%
+  SW mean: 99.86% ± 0.16%
+
+Execution time statistics:
+  Needleman-Wunsch: 460.67 ± 148.29 ms
+  Smith-Waterman: 473.41 ± 131.30 ms
+
+5. Conclusions and recommendations
+---------------
+Conclusions from biological validation:
+
+• Functional domain analysis: Smith-Waterman performs better in conservation detection
+• Execution: Needleman-Wunsch is faster on average
+
+SARS-CoV-2 application guidance:
+• Whole-genome comparisons and evolutionary analysis: Needleman-Wunsch
+• Functional domain and critical site analysis: Smith-Waterman
+• Variant quick-screening: combine both approaches
+• Large-scale database searches: Smith-Waterman recommended

@@ -1,0 +1,900 @@
+{
+  "pairwise_comparisons": [
+    {
+      "seq1_variant": "unknown",
+      "seq2_variant": "unknown",
+      "same_variant": true,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 596,
+            "mismatches": 2,
+            "gaps": 0,
+            "identity_percent": 99.66555183946488,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.3655357360839844
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 596,
+            "mismatches": 2,
+            "gaps": 0,
+            "identity_percent": 99.66555183946488,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.3693850040435791
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 596,
+            "mismatches": 2,
+            "gaps": 0,
+            "identity_percent": 99.66555183946488,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.7389023303985596
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 596,
+            "mismatches": 2,
+            "gaps": 0,
+            "identity_percent": 99.66555183946488,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.7889060974121094
+        }
+      }
+    },
+    {
+      "seq1_variant": "unknown",
+      "seq2_variant": "unknown",
+      "same_variant": true,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.34430956840515137
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.36595582962036133
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.7208957672119141
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.7920796871185303
+        }
+      }
+    },
+    {
+      "seq1_variant": "unknown",
+      "seq2_variant": "unknown",
+      "same_variant": true,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.4035201072692871
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.37317681312561035
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.7429139614105225
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.8126611709594727
+        }
+      }
+    },
+    {
+      "seq1_variant": "unknown",
+      "seq2_variant": "unknown",
+      "same_variant": true,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 596,
+            "mismatches": 2,
+            "gaps": 0,
+            "identity_percent": 99.66555183946488,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.3864119052886963
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 596,
+            "mismatches": 2,
+            "gaps": 0,
+            "identity_percent": 99.66555183946488,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.3738441467285156
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 596,
+            "mismatches": 2,
+            "gaps": 0,
+            "identity_percent": 99.66555183946488,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.7471256256103516
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 596,
+            "mismatches": 2,
+            "gaps": 0,
+            "identity_percent": 99.66555183946488,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.7894701957702637
+        }
+      }
+    },
+    {
+      "seq1_variant": "unknown",
+      "seq2_variant": "unknown",
+      "same_variant": true,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.35916924476623535
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.3774244785308838
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.8022606372833252
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.8432745933532715
+        }
+      }
+    },
+    {
+      "seq1_variant": "unknown",
+      "seq2_variant": "unknown",
+      "same_variant": true,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 595,
+            "mismatches": 3,
+            "gaps": 0,
+            "identity_percent": 99.49832775919732,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.3721146583557129
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 595,
+            "mismatches": 3,
+            "gaps": 0,
+            "identity_percent": 99.49832775919732,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.37264442443847656
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 595,
+            "mismatches": 3,
+            "gaps": 0,
+            "identity_percent": 99.49832775919732,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.7605338096618652
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 595,
+            "mismatches": 3,
+            "gaps": 0,
+            "identity_percent": 99.49832775919732,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.816032886505127
+        }
+      }
+    },
+    {
+      "seq1_variant": "unknown",
+      "seq2_variant": "unknown",
+      "same_variant": true,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.3562450408935547
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.38924670219421387
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.7727832794189453
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.8031134605407715
+        }
+      }
+    },
+    {
+      "seq1_variant": "unknown",
+      "seq2_variant": "unknown",
+      "same_variant": true,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.35808420181274414
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.39600181579589844
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.8933115005493164
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.9281520843505859
+        }
+      }
+    },
+    {
+      "seq1_variant": "unknown",
+      "seq2_variant": "unknown",
+      "same_variant": true,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.5051760673522949
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.47115468978881836
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 1.1771817207336426
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 1.9369404315948486
+        }
+      }
+    },
+    {
+      "seq1_variant": "unknown",
+      "seq2_variant": "unknown",
+      "same_variant": true,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.9500741958618164
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.7528951168060303
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 1.838646650314331
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 1.266397476196289
+        }
+      }
+    },
+    {
+      "seq1_variant": "unknown",
+      "seq2_variant": "unknown",
+      "same_variant": true,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.567328691482544
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.7272257804870605
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 1.2213048934936523
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 1.1587319374084473
+        }
+      }
+    },
+    {
+      "seq1_variant": "unknown",
+      "seq2_variant": "unknown",
+      "same_variant": true,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.44146203994750977
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.4899742603302002
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.9918618202209473
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.9725780487060547
+        }
+      }
+    },
+    {
+      "seq1_variant": "unknown",
+      "seq2_variant": "unknown",
+      "same_variant": true,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.5119216442108154
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.45711493492126465
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.9831726551055908
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 597,
+            "mismatches": 1,
+            "gaps": 0,
+            "identity_percent": 99.83277591973244,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 1.039496660232544
+        }
+      }
+    },
+    {
+      "seq1_variant": "unknown",
+      "seq2_variant": "unknown",
+      "same_variant": true,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.4744846820831299
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.6711418628692627
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 1.3407020568847656
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 598,
+            "mismatches": 0,
+            "gaps": 0,
+            "identity_percent": 100.0,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 1.143632411956787
+        }
+      }
+    },
+    {
+      "seq1_variant": "unknown",
+      "seq2_variant": "unknown",
+      "same_variant": true,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 596,
+            "mismatches": 2,
+            "gaps": 0,
+            "identity_percent": 99.66555183946488,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.5141587257385254
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 596,
+            "mismatches": 2,
+            "gaps": 0,
+            "identity_percent": 99.66555183946488,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.5139756202697754
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 596,
+            "mismatches": 2,
+            "gaps": 0,
+            "identity_percent": 99.66555183946488,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 1.0406079292297363
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 596,
+            "mismatches": 2,
+            "gaps": 0,
+            "identity_percent": 99.66555183946488,
+            "coverage_percent": 100.0,
+            "alignment_length": 598,
+            "valid_positions": 598
+          },
+          "execution_time": 0.8897898197174072
+        }
+      }
+    }
+  ],
+  "execution_times": {
+    "Needleman-Wunsch": [
+      0.3655357360839844,
+      0.34430956840515137,
+      0.4035201072692871,
+      0.3864119052886963,
+      0.35916924476623535,
+      0.3721146583557129,
+      0.3562450408935547,
+      0.35808420181274414,
+      0.5051760673522949,
+      0.9500741958618164,
+      0.567328691482544,
+      0.44146203994750977,
+      0.5119216442108154,
+      0.4744846820831299,
+      0.5141587257385254
+    ],
+    "Smith-Waterman": [
+      0.3693850040435791,
+      0.36595582962036133,
+      0.37317681312561035,
+      0.3738441467285156,
+      0.3774244785308838,
+      0.37264442443847656,
+      0.38924670219421387,
+      0.39600181579589844,
+      0.47115468978881836,
+      0.7528951168060303,
+      0.7272257804870605,
+      0.4899742603302002,
+      0.45711493492126465,
+      0.6711418628692627,
+      0.5139756202697754
+    ],
+    "Gotoh-NW": [
+      0.7389023303985596,
+      0.7208957672119141,
+      0.7429139614105225,
+      0.7471256256103516,
+      0.8022606372833252,
+      0.7605338096618652,
+      0.7727832794189453,
+      0.8933115005493164,
+      1.1771817207336426,
+      1.838646650314331,
+      1.2213048934936523,
+      0.9918618202209473,
+      0.9831726551055908,
+      1.3407020568847656,
+      1.0406079292297363
+    ],
+    "Gotoh-SW": [
+      0.7889060974121094,
+      0.7920796871185303,
+      0.8126611709594727,
+      0.7894701957702637,
+      0.8432745933532715,
+      0.816032886505127,
+      0.8031134605407715,
+      0.9281520843505859,
+      1.9369404315948486,
+      1.266397476196289,
+      1.1587319374084473,
+      0.9725780487060547,
+      1.039496660232544,
+      1.143632411956787,
+      0.8897898197174072
+    ]
+  },
+  "variant_clustering": {}
+}

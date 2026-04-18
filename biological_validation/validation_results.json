@@ -1,0 +1,118 @@
+{
+  "functional_domain_tests": [
+    {
+      "domain": "RBD",
+      "function": "Binds to ACE2 receptor",
+      "original_length": 223,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 212,
+            "mismatches": 11,
+            "gaps": 0,
+            "identity_percent": 95.06726457399103,
+            "coverage_percent": 100.0,
+            "alignment_length": 223,
+            "valid_positions": 223
+          },
+          "execution_time": 0.06100630760192871
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 212,
+            "mismatches": 11,
+            "gaps": 0,
+            "identity_percent": 95.06726457399103,
+            "coverage_percent": 100.0,
+            "alignment_length": 223,
+            "valid_positions": 223
+          },
+          "execution_time": 0.04682159423828125
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 212,
+            "mismatches": 11,
+            "gaps": 0,
+            "identity_percent": 95.06726457399103,
+            "coverage_percent": 100.0,
+            "alignment_length": 223,
+            "valid_positions": 223
+          },
+          "execution_time": 0.10622453689575195
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 212,
+            "mismatches": 11,
+            "gaps": 0,
+            "identity_percent": 95.06726457399103,
+            "coverage_percent": 100.0,
+            "alignment_length": 223,
+            "valid_positions": 223
+          },
+          "execution_time": 0.10505485534667969
+        }
+      },
+      "expected_high_conservation": true
+    },
+    {
+      "domain": "NTD",
+      "function": "N-terminal domain",
+      "original_length": 292,
+      "algorithm_results": {
+        "Needleman-Wunsch": {
+          "stats": {
+            "matches": 278,
+            "mismatches": 14,
+            "gaps": 0,
+            "identity_percent": 95.2054794520548,
+            "coverage_percent": 100.0,
+            "alignment_length": 292,
+            "valid_positions": 292
+          },
+          "execution_time": 0.08647966384887695
+        },
+        "Smith-Waterman": {
+          "stats": {
+            "matches": 278,
+            "mismatches": 14,
+            "gaps": 0,
+            "identity_percent": 95.2054794520548,
+            "coverage_percent": 100.0,
+            "alignment_length": 292,
+            "valid_positions": 292
+          },
+          "execution_time": 0.10214829444885254
+        },
+        "Gotoh-NW": {
+          "stats": {
+            "matches": 278,
+            "mismatches": 14,
+            "gaps": 0,
+            "identity_percent": 95.2054794520548,
+            "coverage_percent": 100.0,
+            "alignment_length": 292,
+            "valid_positions": 292
+          },
+          "execution_time": 0.1915607452392578
+        },
+        "Gotoh-SW": {
+          "stats": {
+            "matches": 278,
+            "mismatches": 14,
+            "gaps": 0,
+            "identity_percent": 95.2054794520548,
+            "coverage_percent": 100.0,
+            "alignment_length": 292,
+            "valid_positions": 292
+          },
+          "execution_time": 0.19882893562316895
+        }
+      },
+      "expected_high_conservation": true
+    }
+  ],
+  "variant_discrimination_tests": [],
+  "conservation_tests": []
+}

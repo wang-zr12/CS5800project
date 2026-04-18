@@ -1,0 +1,258 @@
+Comprehensive report for sequence alignment algorithm comparison
+======================================================================
+
+Algorithms compared: Needleman-Wunsch vs Smith-Waterman vs Gotoh-NW vs Gotoh-SW
+
+1. Algorithm overview
+---------------
+
+Needleman-Wunsch (1970):
+• Global alignment algorithm
+• Linear gap penalty: w(k) = k × gap_penalty
+• Suitable for homologous sequences of similar length
+• Time complexity: O(mn), Space complexity: O(mn)
+
+Smith-Waterman (1981):
+• Local alignment algorithm
+• Linear gap penalty with score reset to zero
+• Suitable for finding local similarity regions
+• Time complexity: O(mn), Space complexity: O(mn)
+
+Gotoh-NW (1982):
+• Global alignment with affine gap penalty
+• Affine gap penalty: w(k) = gap_open + (k-1) × gap_extend
+• More realistic gap modeling for indels
+• Time complexity: O(mn), Space complexity: O(mn)
+
+Gotoh-SW:
+• Local alignment with affine gap penalty
+• Combines local alignment and improved gap handling
+• Suitable for complex local similarity analyses
+• Time complexity: O(mn), Space complexity: O(mn)
+
+2. Test case results
+------------------
+
+Test case 1: Perfect match
+Description: Two identical sequences
+Sequence 1: ATCGATCG
+Sequence 2: ATCGATCG
+Expected: All algorithms should produce the same result
+
+Results:
+  Needleman-Wunsch: Score=  16.0, Identity=100.0%, Gap= 0, Time=  0.00ms
+  Smith-Waterman : Score=  16.0, Identity=100.0%, Gap= 0, Time=  0.00ms
+  Gotoh-NW       : Score=  16.0, Identity=100.0%, Gap= 0, Time=  0.00ms
+  Gotoh-SW       : Score=  16.0, Identity=100.0%, Gap= 0, Time=  0.00ms
+
+------------------------------------------------------------
+
+Test case 2: Single substitution
+Description: Single point substitution (A->C)
+Sequence 1: ATCGATCG
+Sequence 2: ATCGCTCG
+Expected: Global algorithms may score higher
+
+Results:
+  Needleman-Wunsch: Score=  13.0, Identity= 87.5%, Gap= 0, Time=  0.00ms
+  Smith-Waterman : Score=  13.0, Identity= 87.5%, Gap= 0, Time=  0.00ms
+  Gotoh-NW       : Score=  13.0, Identity= 87.5%, Gap= 0, Time=  0.00ms
+  Gotoh-SW       : Score=  13.0, Identity= 87.5%, Gap= 0, Time=  1.03ms
+
+------------------------------------------------------------
+
+Test case 3: Insertion mutation
+Description: Insertion of a single 'A'
+Sequence 1: ATCGATCG
+Sequence 2: ATCGAATCG
+Expected: Gotoh algorithms handle gaps better
+
+Results:
+  Needleman-Wunsch: Score=  14.0, Identity= 88.9%, Gap= 1, Time=  0.00ms
+  Smith-Waterman : Score=  14.0, Identity= 88.9%, Gap= 1, Time=  0.00ms
+  Gotoh-NW       : Score=   5.0, Identity= 88.9%, Gap= 1, Time=  0.00ms
+  Gotoh-SW       : Score=  10.0, Identity=100.0%, Gap= 0, Time=  0.00ms
+
+------------------------------------------------------------
+
+Test case 4: Deletion mutation
+Description: Deletion of a single 'A'
+Sequence 1: ATCGATCG
+Sequence 2: ATCGTCG
+Expected: Gotoh algorithms handle gaps better
+
+Results:
+  Needleman-Wunsch: Score=  12.0, Identity= 87.5%, Gap= 1, Time=  0.00ms
+  Smith-Waterman : Score=  12.0, Identity= 87.5%, Gap= 1, Time=  0.00ms
+  Gotoh-NW       : Score=   3.0, Identity= 87.5%, Gap= 1, Time=  0.00ms
+  Gotoh-SW       : Score=   8.0, Identity=100.0%, Gap= 0, Time=  0.97ms
+
+------------------------------------------------------------
+
+Test case 5: Multiple gaps
+Description: Multiple gap regions
+Sequence 1: ATCGATCGAA
+Sequence 2: AT--ATC--A
+Expected: Linear gap penalties may over-penalize
+
+Results:
+  Needleman-Wunsch: Score=   8.0, Identity= 60.0%, Gap= 4, Time=  0.00ms
+  Smith-Waterman : Score=   8.0, Identity= 71.4%, Gap= 2, Time=  0.00ms
+  Gotoh-NW       : Score=   8.0, Identity= 60.0%, Gap= 4, Time=  0.00ms
+  Gotoh-SW       : Score=   8.0, Identity= 71.4%, Gap= 2, Time=  0.00ms
+
+------------------------------------------------------------
+
+Test case 6: Long insertion
+Description: Long inserted sequence
+Sequence 1: ATCG
+Sequence 2: ATCGATCGATCG
+Expected: Local algorithms may perform better
+
+Results:
+  Needleman-Wunsch: Score=  -8.0, Identity= 33.3%, Gap= 8, Time=  0.00ms
+  Smith-Waterman : Score=   8.0, Identity=100.0%, Gap= 0, Time=  1.00ms
+  Gotoh-NW       : Score= -10.0, Identity= 33.3%, Gap= 8, Time=  0.00ms
+  Gotoh-SW       : Score=   8.0, Identity=100.0%, Gap= 0, Time=  0.00ms
+
+------------------------------------------------------------
+
+Test case 7: Local similarity
+Description: Middle region is similar
+Sequence 1: AAATCGATCGAAA
+Sequence 2: TTTATCGATCGTTT
+Expected: Smith-Waterman and Gotoh-SW show advantages
+
+Results:
+  Needleman-Wunsch: Score=   9.0, Identity= 57.1%, Gap= 1, Time=  0.00ms
+  Smith-Waterman : Score=  16.0, Identity=100.0%, Gap= 0, Time=  0.00ms
+  Gotoh-NW       : Score=   0.0, Identity= 57.1%, Gap= 1, Time=  0.00ms
+  Gotoh-SW       : Score=  16.0, Identity=100.0%, Gap= 0, Time=  1.00ms
+
+------------------------------------------------------------
+
+Test case 8: Repeated sequence
+Description: One sequence is a repeat of the other
+Sequence 1: ATCGATCGATCG
+Sequence 2: ATCGATCG
+Expected: Local algorithms find repeating units
+
+Results:
+  Needleman-Wunsch: Score=   8.0, Identity= 66.7%, Gap= 4, Time=  0.00ms
+  Smith-Waterman : Score=  16.0, Identity=100.0%, Gap= 0, Time=  0.00ms
+  Gotoh-NW       : Score=   2.0, Identity= 66.7%, Gap= 4, Time=  0.00ms
+  Gotoh-SW       : Score=  16.0, Identity=100.0%, Gap= 0, Time=  1.00ms
+
+------------------------------------------------------------
+
+3. Statistical analysis
+------------
+
+Test case statistics (mean ± stddev):
+
+Needleman-Wunsch:
+  Average score:     3.30 ± 14.15
+  Average identity:  59.10% ± 32.87%
+  Average execution time:   0.00 ± 0.00 ms
+
+Smith-Waterman:
+  Average score:    10.70 ± 5.25
+  Average identity:  83.53% ± 29.22%
+  Average execution time:   0.10 ± 0.30 ms
+
+Gotoh-NW:
+  Average score:     0.60 ± 11.17
+  Average identity:  59.10% ± 32.87%
+  Average execution time:   0.00 ± 0.00 ms
+
+Gotoh-SW:
+  Average score:     9.90 ± 5.15
+  Average identity:  85.89% ± 29.97%
+  Average execution time:   0.40 ± 0.49 ms
+
+Real sequence statistics (mean ± stddev):
+
+Needleman-Wunsch:
+  Average score:   294.00 ± 50.40
+  Average identity:  51.41% ± 0.29%
+  Average execution time: 723.89 ± 246.04 ms
+
+Smith-Waterman:
+  Average score:   336.92 ± 14.13
+  Average identity:  52.77% ± 0.71%
+  Average execution time: 694.04 ± 144.00 ms
+
+Gotoh-NW:
+  Average score:   -41.00 ± 38.76
+  Average identity:  36.91% ± 1.46%
+  Average execution time: 1378.30 ± 280.73 ms
+
+Gotoh-SW:
+  Average score:    71.33 ± 5.98
+  Average identity:  43.44% ± 1.32%
+  Average execution time: 1514.94 ± 288.31 ms
+
+4. Real sequence comparison summary
+----------------------
+
+Total comparisons: 12
+Comparisons within same variant: 12
+Comparisons across different variants: 0
+
+Variant distribution:
+  Unknown: 24 occurrences
+
+5. Algorithm selection recommendations
+------------------
+
+Algorithm selection recommendations:
+
+🌐 Needleman-Wunsch:
+• Global alignment; sequences of similar length
+• Useful for evolutionary analyses and phylogenetics
+• Good for overall sequence similarity scoring
+
+🎯 Smith-Waterman:
+• Local alignment; find conserved regions
+• Useful for database searches
+• Works well when sequence lengths differ greatly
+
+🧬 Gotoh-NW:
+• Global alignment with affine gap handling
+• Preferred for protein alignments when gaps are realistic
+• Better modeling of indel events
+
+🔬 Gotoh-SW:
+• Local alignment with affine gap handling
+• Good for identifying functional domains
+• Recommended for SARS-CoV-2 RBD-focused analyses
+
+💡 SARS-CoV-2 guidance:
+• Whole-genome variant comparisons: Gotoh-NW
+• Conserved domain analysis: Gotoh-SW
+• Fast screening: SW or Gotoh-SW
+
+6. Parameter recommendations
+------------
+
+Linear gap penalty parameters:
+  Match score: 2
+  Mismatch score: -1
+  Gap penalty: -2
+
+Affine gap penalty parameters:
+  Match score: 2
+  Mismatch score: -1
+  Gap open penalty: -10
+  Gap extend penalty: -1
+
+For SARS-CoV-2 sequence analysis, recommendations:
+• Nucleotide sequences: match=2, mismatch=-1
+• Protein sequences: use BLOSUM62 matrix
+• Adjust gap penalties based on biological relevance
+• Affine gap models better reflect real indel events
+
+7. Output files
+------------
+• comprehensive_algorithm_comparison.png - comprehensive comparison figure
+• comprehensive_comparison_report.txt - detailed report

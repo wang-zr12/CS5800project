@@ -1,0 +1,18 @@
+# E-value Summary
+# lambda=0.26449709  K=10.41383977
+
+Pair                             Method        Score      E-value     Bits  Interpretation
+-----------------------------------------------------------------------------------------------
+Wuhan-Hu-1 vs Delta B.1.617.2    SW-linear      1110    1.11e-121    420.2  Extremely significant
+Wuhan-Hu-1 vs Delta B.1.617.2    Gotoh-SW       1110    1.11e-121    420.2  Extremely significant
+Wuhan-Hu-1 vs Omicron BA.1       SW-linear       980    9.53e-107    370.6  Extremely significant
+Wuhan-Hu-1 vs Omicron BA.1       Gotoh-SW        971    1.03e-105    367.1  Extremely significant
+Delta B.1.617.2 vs Omicron BA.1  SW-linear      1034    5.97e-113    391.2  Extremely significant
+Delta B.1.617.2 vs Omicron BA.1  Gotoh-SW       1025    6.45e-112    387.7  Extremely significant
+
+--- Negative control: random pairs (len 200) ---
+random pair 1                    SW-linear        94     6.64e-06     32.5  Significant
+random pair 2                    SW-linear        87     4.23e-05     29.8  Significant
+random pair 3                    SW-linear        78     4.57e-04     26.4  Significant
+random pair 4                    SW-linear        93     8.65e-06     32.1  Significant
+random pair 5                    SW-linear        97     3.00e-06     33.6  Significant

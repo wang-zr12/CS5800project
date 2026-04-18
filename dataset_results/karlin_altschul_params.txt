@@ -1,0 +1,7 @@
+# Karlin-Altschul Parameters
+# Scoring: match=2 mismatch=-1 gap=-2
+# Base freqs: uniform 0.25
+# K: Monte Carlo 2000 pairs len 100 seed 42
+
+lambda = 0.2644970943
+K      = 10.4138397699
