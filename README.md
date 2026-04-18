@@ -3,9 +3,7 @@
 Implements and compares two classical sequence alignment algorithms:
 **Needleman-Wunsch** (global) and **Smith-Waterman** (local).
 The project generates clean DP-matrix heatmaps with traceback overlays, , a timing benchmark, a cross-experiment score comparison covering five carefully chosen
-DNA sequence pairs, and a large-scale validation study on 350 synthetic pairs with controlled similarity levels.  An extended experiment compares linear vs affine gap 
-models (Gotoh) on real SARS-CoV-2 spike RBD sequences.
----
+DNA sequence pairs, and a large-scale validation study on 350 synthetic pairs with controlled similarity levels.  An extended experiment compares linear vs affine gap models (Gotoh) on real SARS-CoV-2 spike RBD sequences.
 
 ## Table of Contents
 
